@@ -122,15 +122,11 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              Full-stack Engineer with 6+ years of experience building scalable web products using TypeScript (NestJS, Angular) and Python (FastAPI).
+              Passionate about crafting intuitive user experiences, I blend UX/UI skills (Figma, Cypress) with solid backend expertise.
+              I lead product design and development from ideation to deployment in Agile teams.
+              Currently co-building an AI-based plant care app (Pyto).
+              Curious, autonomous, and impact-driven.
             </p>
           </div>
         </MotionWrapper>

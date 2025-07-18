@@ -1,186 +1,119 @@
-# Modern Portfolio Template
+# Portfolio Professionnel
 
-A sleek, responsive portfolio website built with **Astro**, **React**, and **Tailwind CSS**, featuring modern animations and stunning glassmorphism effects.
+Bienvenue sur mon portfolio professionnel, conçu pour mettre en valeur mon parcours, mes compétences et mes réalisations dans le domaine du développement web et logiciel.
 
-![Portfolio Screenshot](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
+Ce site est construit avec **Astro**, **React** et **Tailwind CSS**, offrant une expérience moderne, rapide et responsive, avec des animations élégantes et un design en glassmorphisme.
 
-## ✨ Features
+---
 
-- **Modern Design** – Clean, professional layout with elegant glassmorphism
-- **Animations** – Smooth transitions and interactive UI via Framer Motion
-- **Dark/Light Mode** – Automatic theme switching with system preference detection
-- **Fully Responsive** – Optimized for mobile, tablet, and desktop
-- **Blazing Fast** – Powered by Astro for superior performance
-- **Modular Structure** – Built for easy customization and scalability
-- **SEO Friendly** – Structured content and meta tags for better visibility
+## ✨ Points forts
 
-## 🚀 Demo
+- **Design moderne** : Interface épurée et professionnelle avec effets de glassmorphisme
+- **Animations fluides** : Transitions et interactions dynamiques grâce à Framer Motion
+- **Mode sombre/clair** : Adaptation automatique selon les préférences du système
+- **Responsive** : Optimisé pour tous les écrans (mobile, tablette, desktop)
+- **Performance** : Généré statiquement avec Astro pour une rapidité optimale
+- **Structure modulaire** : Facilement personnalisable et évolutif
+- **SEO optimisé** : Contenu structuré et balises meta pour une meilleure visibilité
 
-👉 [Live Demo](https://rishilol.vercel.app/)
+---
 
-## 🛠 Getting Started
+## 🚀 Aperçu
 
-### Prerequisites
+Consultez la version en ligne de mon portfolio :
 
-- Node.js (v18+ recommended)
+👉 [Démo en ligne](https://wiiz83.github.io/)
+
+---
+
+## 🛠 Installation et utilisation
+
+### Prérequis
+
+- Node.js (v18+ recommandé)
 - npm / yarn / bun
 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/my-portfolio.git
-cd my-portfolio
+git clone https://github.com/wiiz83/wiiz83.github.io.git
+cd wiiz83.github.io
 
-# Install dependencies
+# Installer les dépendances
 npm install
-# or
+# ou
 yarn install
-# or
+# ou
 bun install
 
-# Start development server
+# Lancer le serveur de développement
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 bun dev
 ```
 
-Visit `http://localhost:4321` in your browser to see it in action.
+Rendez-vous sur `http://localhost:4321` pour voir le site en local.
 
-## 🧩 Customizing the Portfolio
+---
 
-All your content lives inside `src/lib/data.ts`. Update the following to make it yours:
+## 🧩 Personnalisation
 
-### 1. Personal Info
+Toutes les données du portfolio sont centralisées dans `src/lib/data.ts`. Modifiez ce fichier pour adapter le contenu à votre profil :
 
-```ts
-export const personalInfo = {
-  name: "Your Name",
-  location: "Your Location",
-  email: "your.email@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://www.linkedin.com/in/yourusername/",
-};
-```
+- **Informations personnelles**
+- **Expériences professionnelles**
+- **Formation**
+- **Compétences**
+- **Projets**
+- **Récompenses**
 
-### 2. Work Experience
+---
 
-```ts
-export const workExperience = [
-  {
-    company: "Company Name",
-    location: "Location",
-    position: "Your Position",
-    period: "Start Date - End Date",
-    achievements: [
-      "Achievement 1",
-      "Achievement 2",
-    ],
-  },
-];
-```
-
-### 3. Education
-
-```ts
-export const education = [
-  {
-    institution: "University Name",
-    location: "Location",
-    degree: "Your Degree",
-    period: "Start Date - End Date",
-    achievements: [
-      "Achievement 1",
-      "Achievement 2",
-    ],
-  },
-];
-```
-
-### 4. Skills
-
-```ts
-export const skills = {
-  programmingLanguages: ["TypeScript", "Python"],
-  frontendDevelopment: ["React", "Next.js"],
-  // and more...
-};
-```
-
-### 5. Projects
-
-```ts
-export const projects = [
-  {
-    title: "Project Name",
-    github: "https://github.com/yourusername/project",
-    description: [
-      "What it does",
-      "Technologies used",
-    ],
-  },
-];
-```
-
-### 6. Awards
-
-```ts
-export const awards = [
-  {
-    name: "Award Name",
-    issuer: "Issuer",
-    date: "Date",
-    type: "Type",
-    position: "Position",
-  },
-];
-```
-
-## 📦 Build for Production
+## 📦 Générer la version de production
 
 ```bash
 npm run build
-# or
+# ou
 yarn build
-# or
+# ou
 bun run build
 ```
 
-To preview the production build locally:
+Pour prévisualiser la version de production localement :
 
 ```bash
 npm run preview
-# or
+# ou
 yarn preview
 ```
 
-## 📤 Deployment
+---
 
-Easily deploy to platforms like **Vercel**, **Netlify**, **GitHub Pages**, or any static host of your choice.
+## 📤 Déploiement
 
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## ©️ Copyright
-
-© 2025 **Rishikesh S.** All rights reserved.
-
-You’re welcome to use this template for your own portfolio — just update `data.ts` and tweak the design as needed. Please keep attribution to the original author.
+Ce portfolio peut être déployé facilement sur **Vercel**, **Netlify**, **GitHub Pages** ou tout autre hébergeur de sites statiques.
 
 ---
 
-## 🌟 Like it?
+## 📝 Licence
 
-If you found this helpful or inspiring, **please consider leaving a star** ⭐ on the repo — it helps others discover it too!
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Remerciements et attribution
 
+Ce template a été initialement créé par **Rishikesh S.** ([GitHub](https://github.com/rishilol)), et adapté pour mon usage professionnel. Merci à l'auteur original pour son travail remarquable.
+
+Technologies utilisées :
 - [Astro](https://astro.build/)
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Lucide Icons](https://lucide.dev/)
+
+---
+
+© 2025 wiiz83. Tous droits réservés. Merci de respecter l'attribution à l'auteur original si vous réutilisez ce template.
