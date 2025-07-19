@@ -1,6 +1,7 @@
 export const personalInfo = {
   name: "Lucas UZAN",
   location: "Toulouse, France",
+  position: "Full-stack Developer | Product-Driven Mindset | AI & UX Enthusiast 👨‍💻",
   email: "uzanlah@gmail.com",
   github: "https://github.com/wiiz83",
   linkedin: "https://www.linkedin.com/in/lucasuzan/",
