@@ -9,6 +9,7 @@ interface TimelineItemProps {
   isLast?: boolean;
   index?: number;
   children?: React.ReactNode;
+  link?: string;
 }
 
 export default function TimelineItem({
@@ -18,6 +19,7 @@ export default function TimelineItem({
   isLast = false,
   index = 0,
   children,
+  link
 }: TimelineItemProps) {
   return (
     <motion.div
@@ -61,6 +63,7 @@ export default function TimelineItem({
           <h3 className="font-medium">{title}</h3>
           <p className="text-sm text-muted-foreground">{subtitle}</p>
           <p className="text-xs text-muted-foreground/70 mb-2">{date}</p>
+          <a href={link}>🔗 {link}</a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}

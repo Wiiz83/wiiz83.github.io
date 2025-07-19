@@ -11,6 +11,7 @@ export const workExperience = [
   {
     company: "Pyto",
     location: "Remote",
+    website: "https://pyto.eu/",
     position: "Co-founder",
     period: "2024 – Present",
     context: "Create a mobile application helping plant lovers care for their plants",
@@ -34,6 +35,7 @@ export const workExperience = [
   {
     company: "Sopra Steria",
     location: "Toulouse, France",
+    website: "https://www.soprasteria.com/",
     position: "Business Analyst / Product Owner",
     period: "Oct 2022 – Present",
     context: "Sectors: Defence (DGATA), Telecommunications (Orange)",
@@ -59,6 +61,7 @@ export const workExperience = [
   {
     company: "DataMedCare",
     location: "Bordeaux, France",
+    website: "https://www.datamedcare.com/",
     position: "Full-stack Developer / Scrum Master",
     period: "2020 – 2022",
     context: "Enhance web applications to monitor patients with sleep apnea",
@@ -81,6 +84,7 @@ export const workExperience = [
   {
     company: "Air France",
     location: "Toulouse, France",
+    website: "https://wwws.airfrance.fr/",
     position: "Full-stack Developer (apprenticeship)",
     period: "2017 – 2019",
     context: "Create a multilingual customer VoiceBot and tracking dashboards",
@@ -103,6 +107,7 @@ export const workExperience = [
   {
     company: "Océalia Informatique",
     location: "Toulouse, France",
+    website: "https://www.ocealia-informatique.com/",
     position: "Software Developer (apprenticeship)",
     period: "2016 – 2017",
     context: "Redesign a staff scheduling solution for the social/healthcare sector",
@@ -119,6 +124,7 @@ export const workExperience = [
   {
     company: "L'écofabrique",
     location: "Toulouse, France",
+    website: "",
     position: "Freelance Web Developer",
     period: "2017 – 2019",
     context: "Create a web application for e-commerce",
@@ -132,6 +138,7 @@ export const workExperience = [
   {
     company: "Alpamayo",
     location: "Grenoble, France",
+    website: "https://www.alpamayo.fr/",
     position: "Freelance Web Developer",
     period: "2017 – 2019",
     context: "Redesigned a web application for school zoning data consultation and management",
@@ -146,8 +153,9 @@ export const workExperience = [
     ],
   },
   {
-    company: "DJ Gwada Mike + DJ Rory",
+    company: "DJ Gwada Mike",
     location: "Cork, Ireland",
+    website: "https://fr.ra.co/dj/djgwadamike",
     position: "Freelance Graphic Designer",
     period: "2017 – 2019",
     context: "",
