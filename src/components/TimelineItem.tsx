@@ -61,9 +61,9 @@ export default function TimelineItem({
           viewport={{ once: true, margin: "-50px" }}
         >
           <h3 className="font-medium">{title}</h3>
+          <a className="text-sm text-muted-foreground" target="blank" href={link}>🔗 {link}</a>
           <p className="text-sm text-muted-foreground">{subtitle}</p>
           <p className="text-xs text-muted-foreground/70 mb-2">{date}</p>
-          <a href={link}>🔗 {link}</a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
