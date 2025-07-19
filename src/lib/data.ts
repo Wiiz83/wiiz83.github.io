@@ -129,7 +129,7 @@ export const workExperience = [
       "Conducted UX audits, created e-commerce and institutional websites.",
       "Performed project analysis and competitive research.",
       "Designed an intuitive user interface.",
-      "Developed the front-end using ASP.NET".",
+      "Developed the front-end using ASP.NET.",
     ],
   },
   {
