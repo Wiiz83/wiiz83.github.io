@@ -13,8 +13,8 @@ export const workExperience = [
     location: "Remote",
     position: "Co-founder",
     period: "2024 – Present",
-    context: "Mobile app helping plant lovers care for their plants using gamification & AI",
-    achievements: [
+    context: "Create a mobile application helping plant lovers care for their plants",
+    responsibilities: [
       "Market research, business planning, partner scouting.",
       "Project management: scheduling, meeting coordination, strategic decisions.",
       "Wireframing and collaboration with professional designers.",
@@ -27,7 +27,8 @@ export const workExperience = [
       "Market analysis, business plan development and partner research",
       "Leading product development, MVP design and technical architecture",
       "Working closely with graphic designers, plant lovers and plant businesses",
-
+    ],
+    achievements: [
     ],
   },
   {
@@ -36,7 +37,7 @@ export const workExperience = [
     position: "Business Analyst / Product Owner",
     period: "Oct 2022 – Present",
     context: "Sectors: Defence (DGATA), Telecommunications (Orange)",
-    achievements: [
+    responsibilities: [
       "Collecting business requirements, writing user stories, creating wireframes, testing features.",
       "Leading workshops and estimation sessions with cross-functional teams.",
       "Writing and executing test strategies (Cypress, Xray) to ensure 100% code coverage.",
@@ -52,14 +53,16 @@ export const workExperience = [
       "Implementing functional tests with Cypress (Angular context)",
       "Suggesting improvements to the client",
     ],
+    achievements: [
+    ],
   },
   {
     company: "DataMedCare",
     location: "Bordeaux, France",
     position: "Full-stack Developer / Scrum Master",
     period: "2020 – 2022",
-    context: "Web applications to monitor patients with sleep apnea",
-    achievements: [
+    context: "Enhance web applications to monitor patients with sleep apnea",
+    responsibilities: [
       "Developed frontend interfaces and backend logic (APIs, database integration).",
       "Modelled, queried, and optimised database structures.",
       "Deployed solutions to production and ensured bug resolution.",
@@ -72,14 +75,16 @@ export const workExperience = [
       "Facilitated Scrum ceremonies and continuous improvement.",
       "Wireframing and mockup updates with Figma.",
     ],
+    achievements: [
+    ],
   },
   {
     company: "Air France",
     location: "Toulouse, France",
     position: "Full-stack Developer (apprenticeship)",
     period: "2017 – 2019",
-    context: "Multilingual customer VoiceBot and tracking dashboards",
-    achievements: [
+    context: "Create a multilingual customer VoiceBot and tracking dashboards",
+    responsibilities: [
       "Developed a multilingual VoiceBot (IBM/Google stack) and tracking dashboards.",
       "Worked directly with business stakeholders in an international SAFe context.",
       "Evolutive maintenance of internally developed projects.",
@@ -92,19 +97,23 @@ export const workExperience = [
       "IBM and Google technologies (Watson, Voice Gateway, TTS/STT).",
       "Agile (SAFe) environment, direct business interaction, often in English.",
     ],
+    achievements: [
+    ],
   },
   {
     company: "Océalia Informatique",
     location: "Toulouse, France",
     position: "Software Developer (apprenticeship)",
     period: "2016 – 2017",
-    context: "Staff scheduling solution for the social/healthcare sector",
-    achievements: [
+    context: "Redesign a staff scheduling solution for the social/healthcare sector",
+    responsibilities: [
       "Designed and rebuilt a staff scheduling solution for the social/healthcare sector.",
       "Redesigned a staff scheduling management tool for the healthcare sector :.",
       "UI/UX design using Adobe Photoshop.",
       "Developed the app using WinDev (WLangage, HyperFileSQL).",
       "Supported client meetings and needs gathering.",
+    ],
+    achievements: [
     ],
   },
   {
@@ -112,10 +121,12 @@ export const workExperience = [
     location: "Toulouse, France",
     position: "Freelance Web Developer",
     period: "2017 – 2019",
-    context: "Web application for e-commerce",
-    achievements: [
+    context: "Create a web application for e-commerce",
+    responsibilities: [
       "Développement d’un site e-commerce de consommation responsable.",
       "Conducted UX audits, created e-commerce and institutional websites.",
+    ],
+    achievements: [
     ],
   },
   {
@@ -124,12 +135,14 @@ export const workExperience = [
     position: "Freelance Web Developer",
     period: "2017 – 2019",
     context: "Redesigned a web application for school zoning data consultation and management",
-    achievements: [
+    responsibilities: [
       "Développement d’un site web de sectorisation scolaire.",
       "Conducted UX audits, created e-commerce and institutional websites.",
       "Performed project analysis and competitive research.",
       "Designed an intuitive user interface.",
       "Developed the front-end using ASP.NET.",
+    ],
+    achievements: [
     ],
   },
   {
@@ -138,8 +151,10 @@ export const workExperience = [
     position: "Freelance Graphic Designer",
     period: "2017 – 2019",
     context: "",
-    achievements: [
+    responsibilities: [
       "Création d’affiches d’événements pour musiciens en Irlande.",
+    ],
+    achievements: [
     ],
   },
 ];
