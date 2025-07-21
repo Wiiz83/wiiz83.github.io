@@ -12,159 +12,154 @@ export const workExperience = [
     company: "Pyto",
     location: "Remote",
     website: "https://pyto.eu/",
-    position: "Co-founder",
-    period: "2024 – Present",
-    context: "Create a mobile application helping plant lovers care for their plants",
+    position: "Co‑founder (side project)",
+    period: "2024 – Present",
+    context: "Building a mobile app that helps plant lovers care for their plants.",
     responsibilities: [
-      "Market research, business planning, partner scouting.",
-      "Project management: scheduling, meeting coordination, strategic decisions.",
-      "Wireframing and collaboration with professional designers.",
-      "Product management in close collaboration with users and business partners.",
-      "Technical architecture design (FastAPI, React Native, PostgreSQL).",
-      "MVP development leveraging AI tools (Cursor AI, ChatGPT).",
-      "Image recognition AI development (EfficientNet B0).",
-      "CI/CD deployment with Docker and GitHub Actions.",
-      "Integration with external services (Mistral AI, OpenWeatherMap, Firebase).",
-      "Market analysis, business plan development and partner research",
-      "Leading product development, MVP design and technical architecture",
-      "Working closely with graphic designers, plant lovers and plant businesses",
+      "Conduct market analysis, draft the business plan, and secure strategic partners.",
+      "Create wireframes and iterate the UI with professional designers and beta users.",
+      "Orchestrate project timelines and decision workshops.",
+      "Steer the product roadmap in collaboration with users and B2B partners.",
+      "Design a cloud‑native architecture (FastAPI, React Native, PostgreSQL).",
+      "Build the MVP with AI‑assisted coding tools (Cursor AI, ChatGPT).",
+      "Train an EfficientNet‑B0 model for plant image recognition.",
+      "Set up Docker‑based CI/CD on GitHub Actions.",
+      "Integrate third‑party services (Mistral AI, OpenWeatherMap, Firebase)."
     ],
-    achievements: [
-    ],
+    achievements: []
+	  
   },
   {
     company: "Sopra Steria",
     location: "Toulouse, France",
-    website: "https://www.soprasteria.com/",
-    position: "Business Analyst / Product Owner",
-    period: "Oct 2022 – Present",
-    context: "Sectors: Defence (DGATA), Telecommunications (Orange)",
+    website: "https://www.orange.com/",
+    position: "Business Analyst",
+    period: "Jul 2024 – Present",
+    context: "Maintaining and evolving a customer‑order management web application for Orange.",
     responsibilities: [
-      "Collecting business requirements, writing user stories, creating wireframes, testing features.",
-      "Leading workshops and estimation sessions with cross-functional teams.",
-      "Writing and executing test strategies (Cypress, Xray) to ensure 100% code coverage.",
-      "Owning the functional scope and rationalising documentation across teams.",
-      "Supporting adoption of prototyping tools (Balsamiq) and agile process improvements.",
-      "Assisting the Scrum Master in enhancing team rituals and internal wiki content.",
-      "Functional requirements analysis and mockup design",
-      "Estimation of functional solutions and dev tickets with the team",
-      "Frequent and close collaboration with the client via workshops",
-      "Writing functional requirements, test scenarios, and development tickets",
-      "Supporting the dev team in understanding business needs, often in English",
-      "Testing developments using UI, Excel, SQL, and Python",
-      "Implementing functional tests with Cypress (Angular context)",
-      "Suggesting improvements to the client",
+      "Gather business requirements, write user stories, and produce wireframes and prototypes.",
+      "Facilitate client workshops and estimation sessions for cross‑functional teams.",
+      "Define and execute test strategies with Cypress and Xray, achieving full functional coverage.",
+      "Maintain functional documentation and the internal wiki, streamlining knowledge sharing.",
+      "Champion the adoption of Balsamiq prototypes and agile best practices.",
+      "Provide developers with clear functional context and perform SQL/Python exploratory tests.",
+      "Propose and negotiate product enhancements directly with stakeholders."
     ],
-    achievements: [
+    achievements: []
+	  
+  },
+  {
+    company: "Sopra Steria",
+    location: "Toulouse, France",
+    website: "https://www.defense.gouv.fr/dga/dga-techniques-aerospatiales",
+    position: "Product Owner & QA Engineer",
+    period: "Oct 2022 – Jul 2024",
+    context: "Delivered a confidential web application for the French Defence Procurement Agency (DGA TA).",
+    responsibilities: [
+      "Led daily stand‑ups and progress reviews in English with a cross‑functional team.",
+      "Analysed business needs and drafted functional solutions, producing low‑fidelity wireframes in Balsamiq.",
+      "Planned and enforced a test strategy targeting 100 % code coverage, converting requirements into Gherkin scenarios.",
+      "Facilitated client workshops for needs gathering, prototype walkthroughs, and backlog refinement.",
+      "Authored user stories, functional specifications, and Jira tickets in English, and maintained the functional wiki.",
+      "Guided developers on domain logic, providing ad‑hoc SQL/Python queries for data validation.",
+      "Verified features via UI tests and back‑end data extractions, and delivered prepared demos to stakeholders.",
+      "Supported the customer during final acceptance (UI drills and database extractions) and identified future enhancements.",
+      "Implemented end‑to‑end regression tests with Cypress (TypeScript) and parameterised Angular test configurations.",
+      "Updated GitLab CI pipelines to run Cypress suites on each merge request."
     ],
+    achievements: []
+	  
   },
   {
     company: "DataMedCare",
     location: "Bordeaux, France",
     website: "https://www.datamedcare.com/",
-    position: "Full-stack Developer / Scrum Master",
-    period: "2020 – 2022",
-    context: "Enhance web applications to monitor patients with sleep apnea",
+    position: "Full‑stack Developer / Scrum Master",
+    period: "2020 – 2022",
+    context: "Enhanced web applications that monitor patients with sleep apnoea.",
     responsibilities: [
-      "Developed frontend interfaces and backend logic (APIs, database integration).",
-      "Modelled, queried, and optimised database structures.",
-      "Deployed solutions to production and ensured bug resolution.",
-      "Introduced Agile practices (Scrumban), led Scrum ceremonies.",
-      "Collaborated on UI/UX design using Figma with business teams.",
-      "Migrated to Atlassian (Confluence, Jira) suite with structured backlog.",
-      "Development of new features and maintenance of existing projects.",
-      "Close collaboration with developers, PO, and business stakeholders.",
-      "Implemented agile workflow (Scrumban) tailored to the company.",
-      "Facilitated Scrum ceremonies and continuous improvement.",
-      "Wireframing and mockup updates with Figma.",
+      "Implemented new features and maintained patient‑monitoring apps across the front‑ and back‑end.",
+      "Modelled and optimised database schemas to improve query performance.",
+      "Deployed releases to production and resolved defects within SLA.",
+      "Instituted a Scrumban workflow and facilitated Agile ceremonies.",
+      "Produced UI/UX wireframes in Figma with business stakeholders.",
+      "Migrated projects to the Atlassian suite, creating a structured backlog."
     ],
-    achievements: [
-    ],
+    achievements: []
+	  
   },
   {
     company: "Air France",
     location: "Toulouse, France",
     website: "https://wwws.airfrance.fr/",
-    position: "Full-stack Developer (apprenticeship)",
-    period: "2017 – 2019",
-    context: "Create a multilingual customer VoiceBot and tracking dashboards",
+    position: "Full‑stack Developer (apprenticeship)",
+    period: "2017 – 2019",
+    context: "Created a multilingual customer VoiceBot and tracking dashboards.",
     responsibilities: [
-      "Developed a multilingual VoiceBot (IBM/Google stack) and tracking dashboards.",
-      "Worked directly with business stakeholders in an international SAFe context.",
-      "Evolutive maintenance of internally developed projects.",
-      "Developed a voice assistant (VoiceBot) for customer service:.",
-      "PoC, need gathering, UML design, UI mockups.",
-      "Front-end in Angular 7 for KPIs and stats.",
-      "Back-end with Spring Boot (GDPR-compliant encryption).",
-      "MongoDB setup for call log storage.",
-      "CI tools: Bamboo, Cloud Foundry, Docker, Sonar, Bitbucket.",
-      "IBM and Google technologies (Watson, Voice Gateway, TTS/STT).",
-      "Agile (SAFe) environment, direct business interaction, often in English.",
+      "Developed a multilingual VoiceBot using IBM Watson and Google Speech APIs for customer self‑service.",
+      "Built Angular 7 dashboards and a Spring Boot back‑end with GDPR‑compliant encryption and a MongoDB database.",
+      "Gathered requirements, produced UML designs and UI mock‑ups, and released a proof of concept.",
+      "Implemented CI pipelines with Bamboo, Docker, Sonar, and Bitbucket, and deployed to Cloud Foundry.",
+      "Collaborated with international stakeholders within a SAFe Agile framework in English."
     ],
-    achievements: [
-    ],
+    achievements: []
+	  
   },
   {
     company: "Océalia Informatique",
     location: "Toulouse, France",
     website: "https://www.ocealia-informatique.com/",
     position: "Software Developer (apprenticeship)",
-    period: "2016 – 2017",
-    context: "Redesign a staff scheduling solution for the social/healthcare sector",
+    period: "2016 – 2017",
+    context: "Redesigned a staff‑scheduling solution for the social and healthcare sector.",
     responsibilities: [
-      "Designed and rebuilt a staff scheduling solution for the social/healthcare sector.",
-      "Redesigned a staff scheduling management tool for the healthcare sector :.",
-      "UI/UX design using Adobe Photoshop.",
-      "Developed the app using WinDev (WLangage, HyperFileSQL).",
-      "Supported client meetings and needs gathering.",
+      "Redesigned and rebuilt a staff‑scheduling solution for healthcare clients using WinDev and HyperFileSQL.",
+      "Created UI/UX assets in Adobe Photoshop and translated them into functional interfaces.",
+      "Conducted client workshops to collect requirements and validate iterations."
     ],
-    achievements: [
-    ],
+    achievements: []
+	  
   },
   {
     company: "L'écofabrique",
     location: "Toulouse, France",
     website: "",
     position: "Freelance Web Developer",
-    period: "2017 – 2019",
-    context: "Create a web application for e-commerce",
+    period: "2017 – 2019",
+    context: "Developed a web application for responsible e‑commerce.",
     responsibilities: [
-      "Développement d’un site e-commerce de consommation responsable.",
-      "Conducted UX audits, created e-commerce and institutional websites.",
+      "Performed a UX audit and developed a responsible‑consumption e‑commerce platform from concept to launch."
     ],
-    achievements: [
-    ],
+    achievements: []
+	  
   },
   {
     company: "Alpamayo",
     location: "Grenoble, France",
     website: "https://www.alpamayo.fr/",
     position: "Freelance Web Developer",
-    period: "2017 – 2019",
-    context: "Redesigned a web application for school zoning data consultation and management",
+    period: "2017 – 2019",
+    context: "Redesigned a web application for school‑zoning data consultation and management.",
     responsibilities: [
-      "Développement d’un site web de sectorisation scolaire.",
-      "Conducted UX audits, created e-commerce and institutional websites.",
-      "Performed project analysis and competitive research.",
-      "Designed an intuitive user interface.",
-      "Developed the front-end using ASP.NET.",
+      "Redesigned a school‑zoning web application, carrying out competitive analysis and UI design.",
+      "Developed the front‑end in ASP.NET and delivered an intuitive user interface."
     ],
-    achievements: [
-    ],
+    achievements: []
+	  
   },
   {
-    company: "DJ Gwada Mike",
+    company: "DJ Gwada Mike",
     location: "Cork, Ireland",
     website: "https://fr.ra.co/dj/djgwadamike",
     position: "Freelance Graphic Designer",
-    period: "2017 – 2019",
-    context: "",
+    period: "2017 – 2019",
+    context: "Designed visual assets for music events.",
     responsibilities: [
-      "Création d’affiches d’événements pour musiciens en Irlande.",
+      "Created promotional posters and event visuals for musicians in Ireland."
     ],
-    achievements: [
-    ],
-  },
+    achievements: []
+  }
+	
 ];
 
 export const education = [
