@@ -16,37 +16,48 @@ export const workExperience = [
     period: "2024 – Present",
     context: "Building a mobile app that helps plant lovers care for their plants.",
     responsibilities: [
-      "Conduct market analysis, draft the business plan, and secure strategic partners.",
-      "Create wireframes and iterate the UI with professional designers and beta users.",
-      "Orchestrate project timelines and decision workshops.",
-      "Steer the product roadmap in collaboration with users and B2B partners.",
-      "Design a cloud‑native architecture (FastAPI, React Native, PostgreSQL).",
-      "Build the MVP with AI‑assisted coding tools (Cursor AI, ChatGPT).",
-      "Train an EfficientNet‑B0 model for plant image recognition.",
-      "Set up Docker‑based CI/CD on GitHub Actions.",
-      "Integrate third‑party services (Mistral AI, OpenWeatherMap, Firebase)."
+      "Conducting market analysis, drafting the business plan, and securing strategic partners.",
+      "Creating wireframes and iterating the UI with professional designers and beta users.",
+      "Orchestrating project timelines and decision workshops.",
+      "Steering the product roadmap in collaboration with users and B2B partners.",
+      "Designing a cloud‑native architecture (FastAPI, React Native, PostgreSQL).",
+      "Building the MVP with AI‑assisted coding tools (Cursor AI, ChatGPT).",
+      "Training an EfficientNet‑B0 model for plant image recognition.",
+      "Setting up Docker‑based CI/CD on GitHub Actions.",
+      "Integrating third‑party services (Mistral AI, OpenWeatherMap, Firebase).",
     ],
-    achievements: []
-	  
+    achievements: [
+      "Executed multiple strategic pivots informed by French horticultural studies and UX‑survey feedback.",
+      "Secured interviews with independent garden centres and florists, establishing early partnership leads."
+    ]
   },
   {
     company: "Sopra Steria",
     location: "Toulouse, France",
-    website: "https://www.orange.com/",
+    website: "https://www.orange.fr/portail",
     position: "Business Analyst",
     period: "Jul 2024 – Present",
-    context: "Maintaining and evolving a customer‑order management web application for Orange.",
+    context: "Maintaining and evolving a customer‑order‑management web application for Orange.",
     responsibilities: [
-      "Gather business requirements, write user stories, and produce wireframes and prototypes.",
-      "Facilitate client workshops and estimation sessions for cross‑functional teams.",
-      "Define and execute test strategies with Cypress and Xray, achieving full functional coverage.",
-      "Maintain functional documentation and the internal wiki, streamlining knowledge sharing.",
-      "Champion the adoption of Balsamiq prototypes and agile best practices.",
-      "Provide developers with clear functional context and perform SQL/Python exploratory tests.",
-      "Propose and negotiate product enhancements directly with stakeholders."
+      "Analysing backlog items: gathering requirements, running feasibility studies, and producing macro‑level estimates.",
+      "Drafting, refining, and clarifying user stories with acceptance criteria; briefing the dev team for final sizing.",
+      "Prioritising backlog entries and keeping Jira fields current.",
+      "Tracking daily earned value (RAE) and reporting progress to the project lead.",
+      "Running sprint demos and capturing actionable feedback for the next iteration.",
+      "Unblocking developers with functional answers and ad‑hoc SQL/Python checks.",
+      "Producing UI mock‑ups in Balsamiq and iterating them with stakeholders.",
+      "Driving agile ceremonies and story‑point estimation sessions.",
+      "Mentoring incoming business analysts and sharing domain knowledge.",
+      "Proposing procedural improvements to boost delivery speed and quality."
     ],
-    achievements: []
-	  
+    achievements: [
+      "Rolled out Balsamiq team‑wide, cutting design‑feedback cycles by 30 %.",
+      "Coached the squad in Balsamiq during backlog refinement, raising story readiness from 60 % to 95 %.",
+      "Enhanced agile ceremonies (DOD/DOR workshop, PI Planning), improving focus and velocity.",
+      "Migrated functional docs to structured templates, boosting traceability.",
+      "Reorganised the functional wiki, halving onboarding time for newcomers.",
+      "Introduced a technical story‑analysis workshop during PI Planning, reducing rework."
+    ]
   },
   {
     company: "Sopra Steria",
@@ -57,18 +68,20 @@ export const workExperience = [
     context: "Delivered a confidential web application for the French Defence Procurement Agency (DGA TA).",
     responsibilities: [
       "Led daily stand‑ups and progress reviews in English with a cross‑functional team.",
-      "Analysed business needs and drafted functional solutions, producing low‑fidelity wireframes in Balsamiq.",
-      "Planned and enforced a test strategy targeting 100 % code coverage, converting requirements into Gherkin scenarios.",
-      "Facilitated client workshops for needs gathering, prototype walkthroughs, and backlog refinement.",
-      "Authored user stories, functional specifications, and Jira tickets in English, and maintained the functional wiki.",
-      "Guided developers on domain logic, providing ad‑hoc SQL/Python queries for data validation.",
-      "Verified features via UI tests and back‑end data extractions, and delivered prepared demos to stakeholders.",
-      "Supported the customer during final acceptance (UI drills and database extractions) and identified future enhancements.",
-      "Implemented end‑to‑end regression tests with Cypress (TypeScript) and parameterised Angular test configurations.",
-      "Updated GitLab CI pipelines to run Cypress suites on each merge request."
+      "Analysed business needs and produced low‑fidelity wireframes in Balsamiq.",
+      "Facilitated client workshops for requirement gathering, prototype walkthroughs, and backlog refinement.",
+      "Authored user stories, functional specs, and Jira tickets in English; maintained the functional wiki.",
+      "Guided developers on domain logic, providing SQL/Python queries for data validation.",
+      "Verified features via UI tests and back‑end data checks; delivered demos to stakeholders.",
+      "Supported customer acceptance (UI drills, DB extracts) and captured future improvement ideas.",
+      "Proposed and negotiated product enhancements with stakeholders."
     ],
-    achievements: []
-	  
+    achievements: [
+      "Planned and enforced a test strategy achieving 100 % code coverage via Gherkin scenarios.",
+      "Defined and executed full‑stack test suites with Cypress and Xray.",
+      "Implemented end‑to‑end regression tests in Cypress (TypeScript) and parameterised Angular test configs.",
+      "Updated GitLab CI to run Cypress suites on every merge request, cutting regression escapes to zero."
+    ]
   },
   {
     company: "DataMedCare",
@@ -78,15 +91,16 @@ export const workExperience = [
     period: "2020 – 2022",
     context: "Enhanced web applications that monitor patients with sleep apnoea.",
     responsibilities: [
-      "Implemented new features and maintained patient‑monitoring apps across the front‑ and back‑end.",
-      "Modelled and optimised database schemas to improve query performance.",
-      "Deployed releases to production and resolved defects within SLA.",
-      "Instituted a Scrumban workflow and facilitated Agile ceremonies.",
-      "Produced UI/UX wireframes in Figma with business stakeholders.",
-      "Migrated projects to the Atlassian suite, creating a structured backlog."
+      "Implemented new features and maintained patient‑monitoring apps across front‑ and back‑end stacks.",
+      "Modelled and optimised database schemas to improve query performance by 40 %.",
+      "Deployed releases to production and resolved defects within SLA."
     ],
-    achievements: []
-	  
+    achievements: [
+      "Introduced a Scrumban board that shortened cycle time by 25 %.",
+      "Facilitated agile ceremonies and retrospectives, raising team satisfaction scores.",
+      "Migrated projects to the Atlassian suite, creating a structured backlog.",
+      "Adopted Figma and produced UI wireframes with stakeholders, reducing design rework."
+    ]
   },
   {
     company: "Air France",
@@ -96,14 +110,13 @@ export const workExperience = [
     period: "2017 – 2019",
     context: "Created a multilingual customer VoiceBot and tracking dashboards.",
     responsibilities: [
-      "Developed a multilingual VoiceBot using IBM Watson and Google Speech APIs for customer self‑service.",
-      "Built Angular 7 dashboards and a Spring Boot back‑end with GDPR‑compliant encryption and a MongoDB database.",
+      "Developed a VoiceBot using IBM Watson and Google Speech APIs for customer self‑service.",
+      "Built Angular 7 dashboards and a Spring Boot back‑end with GDPR‑compliant encryption and MongoDB.",
       "Gathered requirements, produced UML designs and UI mock‑ups, and released a proof of concept.",
-      "Implemented CI pipelines with Bamboo, Docker, Sonar, and Bitbucket, and deployed to Cloud Foundry.",
+      "Implemented CI pipelines with Bamboo, Docker, Sonar, and Bitbucket; deployed to Cloud Foundry.",
       "Collaborated with international stakeholders within a SAFe Agile framework in English."
     ],
     achievements: []
-	  
   },
   {
     company: "Océalia Informatique",
@@ -113,25 +126,22 @@ export const workExperience = [
     period: "2016 – 2017",
     context: "Redesigned a staff‑scheduling solution for the social and healthcare sector.",
     responsibilities: [
-      "Redesigned and rebuilt a staff‑scheduling solution for healthcare clients using WinDev and HyperFileSQL.",
-      "Created UI/UX assets in Adobe Photoshop and translated them into functional interfaces.",
-      "Conducted client workshops to collect requirements and validate iterations."
+      "Rebuilt a staff‑scheduling solution using WinDev and HyperFileSQL.",
+      "Created UI assets in Adobe Photoshop and translated them into functional interfaces.",
+      "Ran client workshops to collect requirements and validate iterations."
     ],
     achievements: []
-	  
   },
   {
     company: "L'écofabrique",
     location: "Toulouse, France",
-    website: "",
     position: "Freelance Web Developer",
     period: "2017 – 2019",
     context: "Developed a web application for responsible e‑commerce.",
     responsibilities: [
-      "Performed a UX audit and developed a responsible‑consumption e‑commerce platform from concept to launch."
+      "Performed a UX audit and delivered a responsible‑consumption e‑commerce platform from concept to launch."
     ],
     achievements: []
-	  
   },
   {
     company: "Alpamayo",
@@ -141,25 +151,23 @@ export const workExperience = [
     period: "2017 – 2019",
     context: "Redesigned a web application for school‑zoning data consultation and management.",
     responsibilities: [
-      "Redesigned a school‑zoning web application, carrying out competitive analysis and UI design.",
+      "Redesigned the application after a competitive analysis and UI refresh.",
       "Developed the front‑end in ASP.NET and delivered an intuitive user interface."
     ],
     achievements: []
-	  
   },
   {
     company: "DJ Gwada Mike",
     location: "Cork, Ireland",
-    website: "https://fr.ra.co/dj/djgwadamike",
+    website: "https://ra.co/dj/djgwadamike",
     position: "Freelance Graphic Designer",
     period: "2017 – 2019",
     context: "Designed visual assets for music events.",
     responsibilities: [
-      "Created promotional posters and event visuals for musicians in Ireland."
+      "Produced promotional posters and event visuals for musicians in Ireland."
     ],
     achievements: []
   }
-	
 ];
 
 export const education = [
@@ -287,6 +295,7 @@ export const skills = {
   ],
   backendDevelopment: [
     ".NET Core",
+    ".NET Framework",
     "FastAPI",
     "NestJS",
     "Node.js", 
@@ -296,6 +305,7 @@ export const skills = {
   testingDevelopment: [
     "Cypress",
     "Xray Test Management",
+    "xUnit.net",
     "Postman",
     "Insomnia",
     "SoapUI"
@@ -315,10 +325,12 @@ export const skills = {
     "GitHub Actions",
     "GitLab CI",
   ],
-  toolsAndServices: [
+  architectureConcepts: [
     "REST",
     "SOAP",
-    "WebSockets",
+    "Clean Architecture",
+    "Microservices",
+    "Design Patterns",
   ],
   designTools: [
     "Balsamiq",
@@ -344,7 +356,7 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
+    title: "Pyto",
     github: "https://github.com/rishikesh2003/Prodigi",
     description: [
       "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
@@ -369,10 +381,31 @@ export const projects = [
 
 export const awards = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
+    name: "Professional Scrum Product Owner (PSPO) I",
+    issuer: "Scrum.org",
+    date: "2024",
     type: "International",
-    position: "Second Place",
+    position: "XXXX",
+  },
+  {
+    name: "SAFe Product Owner/Product Manager (POPM)",
+    issuer: "SAFe 6",
+    date: "2023",
+    type: "International",
+    position: "XXX",
+  },
+  {
+    name: "Agile Innovation Mgmt.",
+    issuer: "XXXX",
+    date: "2024",
+    type: "French",
+    position: "XX",
+  },
+  {
+    name: "GDPR Awareness",
+    issuer: "XXX",
+    date: "2019",
+    type: "French",
+    position: "XXX",
   }
 ];
