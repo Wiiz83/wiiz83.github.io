@@ -69,7 +69,8 @@ export default function ExperienceSection() {
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <ListChecks className="h-4 w-4 text-purple-500" />
                   </div>
-                  <span className="ml-2">{openResponsibilities[index] ? "⌵" : "〉"}</span>
+                  <span className="ml-2">{openResponsibilities[index] ? "⯆" : "⯈"}</span>
+                  <span className="mr-1" />
                   <h4 className="text-sm font-medium">Responsibilities</h4>
                 </div>
                 {openResponsibilities[index] && (
@@ -103,7 +104,8 @@ export default function ExperienceSection() {
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <Award className="h-4 w-4 text-purple-500" />
                   </div>
-                  <span className="ml-2">{openAchievements[index] ? "⌵" : "〉"}</span>
+                  <span className="ml-2">{openAchievements[index] ? "⯆" : "⯈"}</span>
+                  <span className="mr-1" />
                   <h4 className="text-sm font-medium">Key Achievements</h4>
                 </div>
                 {openAchievements[index] && (
