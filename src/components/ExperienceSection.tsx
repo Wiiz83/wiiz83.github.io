@@ -2,7 +2,10 @@ import { workExperience } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
 import { Briefcase, ListChecks, Award } from "lucide-react";
 import { motion } from "framer-motion";
+import React, { useState } from "react";
 import MotionWrapper from "./MotionWrapper";
+
+const [open, setOpen] = useState(false);
 
 export default function ExperienceSection() {
   return (
@@ -49,7 +52,7 @@ export default function ExperienceSection() {
                   </div>
                   <h4 className="text-sm font-medium">Context</h4>
                 </div>
-                <p>{job.context}</p>
+                <p className="text-muted-foreground relative pl-6">{job.context}</p>
               </motion.div>
               <motion.div
                 className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
@@ -58,26 +61,32 @@ export default function ExperienceSection() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                <div className="flex items-center mb-3">
+                <div
+                  className="flex items-center mb-3 cursor-pointer select-none"
+                  onClick={() => setOpen((v) => !v)}
+                >
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <ListChecks className="h-4 w-4 text-purple-500" />
                   </div>
                   <h4 className="text-sm font-medium">Responsibilities</h4>
+                  <span className="ml-2">{open ? "▲" : "▼"}</span>
                 </div>
-                <ul className="list-none ml-4 space-y-2 text-sm">
-                  {job.responsibilities.map((responsibility, i) => (
-                    <motion.li
-                      key={i}
-                      className="text-muted-foreground relative pl-6"
-                      initial={{ opacity: 0, x: -10 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.3, delay: 0.1 * i }}
-                      viewport={{ once: true }}
-                    >
-                      {responsibility}
-                    </motion.li>
-                  ))}
-                </ul>
+                {open && (
+                  <ul className="list-none ml-4 space-y-2 text-sm">
+                    {job.responsibilities.map((responsibility, i) => (
+                      <motion.li
+                        key={i}
+                        className="text-muted-foreground relative pl-6"
+                        initial={{ opacity: 0, x: -10 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.3, delay: 0.1 * i }}
+                        viewport={{ once: true }}
+                      >
+                        {responsibility}
+                      </motion.li>
+                    ))}
+                  </ul>
+                )}
               </motion.div>
               <motion.div
                 className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
