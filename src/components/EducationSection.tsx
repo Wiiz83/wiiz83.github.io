@@ -29,6 +29,7 @@ export default function EducationSection() {
               date={`📅 ${edu.period}`}
               isLast={index === education.length - 1}
               index={index}
+              link={edu.website}
             >
               <p className="text-sm text-muted-foreground mb-3">
                 📍 {edu.location}
@@ -43,22 +44,22 @@ export default function EducationSection() {
                   viewport={{ once: true }}
                 >
                   <div 
-                    className="flex items-center mb-3 cursor-pointer select-none"
+                    className="flex items-center cursor-pointer select-none"
                     onClick={() => setOpenCourses(o => o.map((v, i) => i === index ? !v : v))}
                   >
                     <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
-                      <Award className="h-4 w-4 text-purple-500" />
+                      <ListChecks className="h-4 w-4 text-purple-500" />
                     </div>
                     <span className="ml-2">
                       {openCourses[index] ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
                     </span>
                     <span className="mr-1" />
                     <h4 className="text-sm font-medium">
-                      ✨ Classes
+                      Classes
                     </h4>
                   </div>
                   {openCourses[index] && (
-                    <ul className="list-none ml-4 space-y-2 text-sm">
+                    <ul className="list-none ml-4 mt-3 space-y-2 text-sm">
                     {edu.achievements.map((achievement, i) => (
                       <motion.li
                         key={i}

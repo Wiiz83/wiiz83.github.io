@@ -62,7 +62,7 @@ export default function VolunteeringSection() {
                 viewport={{ once: true }}
               >
                 <div
-                  className="flex items-center mb-3 cursor-pointer select-none"
+                  className="flex items-center cursor-pointer select-none"
                   onClick={() => setOpenResponsibilities(o => o.map((v, i) => i === index ? !v : v))}
                 >
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
@@ -75,7 +75,7 @@ export default function VolunteeringSection() {
                   <h4 className="text-sm font-medium">Responsibilities</h4>
                 </div>
                 {openResponsibilities[index] && (
-                  <ul className="list-none ml-4 space-y-2 text-sm">
+                  <ul className="list-none ml-4 mt-3 space-y-2 text-sm">
                     {job.responsibilities.map((responsibility, i) => (
                       <motion.li
                         key={i}

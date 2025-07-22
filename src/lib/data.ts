@@ -3,15 +3,15 @@ export const personalInfo = {
   location: "Toulouse, France",
   position: "Full-stack Developer & Product Owner | AI & UX Enthusiast",
   email: "uzanlah@gmail.com",
-  github: "github.com/wiiz83",
-  linkedin: "linkedin.com/in/lucasuzan/",
+  github: "https://github.com/wiiz83",
+  linkedin: "https://linkedin.com/in/lucasuzan/",
 };
 
 export const workExperience = [
   {
     company: "Pyto",
     location: "Remote",
-    website: "pyto.eu",
+    website: "https://pyto.eu",
     position: "Co‑founder (side project)",
     period: "2024 – Present",
     context: "Building a mobile app that helps plant lovers care for their plants.",
@@ -34,7 +34,7 @@ export const workExperience = [
   {
     company: "Sopra Steria",
     location: "Toulouse, France",
-    website: "orange.fr",
+    website: "https://orange.fr",
     position: "Business Analyst",
     period: "Jul 2024 – Present",
     context: "Maintaining and evolving a customer‑order‑management web application for Orange.",
@@ -62,7 +62,7 @@ export const workExperience = [
   {
     company: "Sopra Steria",
     location: "Toulouse, France",
-    website: "defense.gouv.fr/dga/dga-techniques-aerospatiales",
+    website: "https://defense.gouv.fr/dga/dga-techniques-aerospatiales",
     position: "Product Owner & QA Engineer",
     period: "Oct 2022 – Jul 2024",
     context: "Delivered a confidential web application for the French Defence Procurement Agency (DGA TA).",
@@ -86,7 +86,7 @@ export const workExperience = [
   {
     company: "DataMedCare",
     location: "Bordeaux, France",
-    website: "datamedcare.com",
+    website: "https://datamedcare.com",
     position: "Full‑stack Developer / Scrum Master",
     period: "2020 – 2022",
     context: "Enhanced web applications that monitor patients with sleep apnoea.",
@@ -105,7 +105,7 @@ export const workExperience = [
   {
     company: "Air France",
     location: "Toulouse, France",
-    website: "airfrance.fr",
+    website: "https://airfrance.fr",
     position: "Full‑stack Developer (apprenticeship)",
     period: "2017 – 2019",
     context: "Created a multilingual customer VoiceBot and tracking dashboards.",
@@ -121,7 +121,7 @@ export const workExperience = [
   {
     company: "Océalia Informatique",
     location: "Toulouse, France",
-    website: "ocealia-informatique.com",
+    website: "https://ocealia-informatique.com",
     position: "Software Developer (apprenticeship)",
     period: "2016 – 2017",
     context: "Redesigned a staff‑scheduling solution for the social and healthcare sector.",
@@ -146,7 +146,7 @@ export const workExperience = [
   {
     company: "Alpamayo",
     location: "Grenoble, France",
-    website: "alpamayo.fr",
+    website: "https://alpamayo.fr",
     position: "Freelance Web Developer",
     period: "2017 – 2019",
     context: "Redesigned a web application for school‑zoning data consultation and management.",
@@ -159,7 +159,7 @@ export const workExperience = [
   {
     company: "DJ Gwada Mike",
     location: "Cork, Ireland",
-    website: "ra.co/dj/djgwadamike",
+    website: "https://ra.co/dj/djgwadamike",
     position: "Freelance Graphic Designer",
     period: "2017 – 2019",
     context: "Designed visual assets for music events.",
@@ -174,7 +174,7 @@ export const education = [
   {
     institution: "Université Toulouse Capitole",
     location: "Toulouse, France",
-    website: "ut-capitole.fr",
+    website: "https://ut-capitole.fr",
     degree: "Master in Computer Science & Business (MIAGE)",
     period: "2017 - 2019",
     achievements: [
@@ -201,7 +201,7 @@ export const education = [
   {
     institution: "Université Toulouse Capitole",
     location: "Toulouse, France",
-    website: "ut-capitole.fr",
+    website: "https://ut-capitole.fr",
     degree: "Bachelor in Computer Science & Business (MIAGE)",
     period: "2016 - 2017",
     achievements: [
@@ -226,7 +226,7 @@ export const education = [
   {
     institution: "Université Grenoble Alpes",
     location: "Grenoble, France",
-    website: "univ-grenoble-alpes.fr",
+    website: "https://univ-grenoble-alpes.fr",
     degree: "Bachelor in Computer Science ",
     period: "2015 - 2016",
     achievements: [
@@ -243,7 +243,7 @@ export const education = [
   {
     institution: "Munster Technological University",
     location: "Cork, Ireland",
-    website: "mtu.ie",
+    website: "https://mtu.ie",
     degree: "Bachelor in Computer Science",
     period: "2014 - 2015",
     achievements: [
@@ -259,7 +259,7 @@ export const education = [
   {
     institution: "Université Grenoble Alpes",
     location: "Grenoble, France",
-    website: "univ-grenoble-alpes.fr",
+    website: "https://univ-grenoble-alpes.fr",
     degree: "DUT Services et réseaux de communication",
     period: "2012 - 2014",
     achievements: [
@@ -423,7 +423,7 @@ export const volunteeringExperience = [
   {
     company: "Association Vénus",
     location: "Bordeaux, France",
-    website: "facebook.com/association.Venus",
+    website: "https://facebook.com/association.Venus",
     position: "Volunteer IT Lead",
     period: "2021 - 2022",
     context: "Built and deployed a WordPress site and custom admin dashboard",
@@ -434,7 +434,7 @@ export const volunteeringExperience = [
   {
     company: "New Talents France",
     location: "Remote",
-    website: "linkedin.com/company/new-talents-france",
+    website: "https://linkedin.com/company/new-talents-france",
     position: "Startup Mentor",
     period: "2021 - 2022",
     context: "Built and deployed a WordPress site and custom admin dashboard",

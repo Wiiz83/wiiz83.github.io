@@ -120,7 +120,7 @@ export default function HeroSection() {
 
         <MotionWrapper>
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
-            <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
+            <p className="text-muted-foreground pl-4 py-2 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               Full‑stack Engineer & Product Owner with 6 + years of experience turning ideas into scalable web and AI products in TypeScript (NestJS, Angular) and Python (FastAPI).
               I blend UX/UI skills (Figma, Cypress) with solid full-stack expertise, leading the full product lifecycle in Agile teams.
