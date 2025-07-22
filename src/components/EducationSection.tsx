@@ -1,6 +1,6 @@
 import { education } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
-import { Award, ChevronRight, ChevronDown } from "lucide-react";
+import { Award, ChevronRight, ChevronDown, ListChecks } from "lucide-react";
 import MotionWrapper from "./MotionWrapper";
 import { motion } from "framer-motion";
 import { useState } from "react";
