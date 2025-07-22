@@ -4,7 +4,7 @@ export const personalInfo = {
   position: "Full-stack Developer & Product Owner | AI & UX Enthusiast",
   email: "uzanlah@gmail.com",
   github: "https://github.com/wiiz83",
-  linkedin: "https://linkedin.com/in/lucasuzan/",
+  linkedin: "https://linkedin.com/in/lucasuzan",
 };
 
 export const workExperience = [

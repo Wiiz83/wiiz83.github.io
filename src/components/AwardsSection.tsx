@@ -40,12 +40,12 @@ export default function AwardsSection() {
                 <p className="text-xs text-muted-foreground mb-1 pl-8">
                   🌎 {award.type}
                 </p>
-                {link?.trim() && (
+                {award.link?.trim() && (
                   <a
                     className="text-xs text-muted-foreground mb-1 pl-8"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={link}
+                    href={award.link}
                   >
                     🔗 Open my certification
                   </a>
