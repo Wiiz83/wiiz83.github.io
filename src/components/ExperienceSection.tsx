@@ -1,6 +1,6 @@
 import { workExperience } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
-import { Briefcase, ListChecks, Award } from "lucide-react";
+import { Briefcase, ListChecks, Award, ChevronDown, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import MotionWrapper from "./MotionWrapper";
@@ -69,7 +69,9 @@ export default function ExperienceSection() {
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <ListChecks className="h-4 w-4 text-purple-500" />
                   </div>
-                  <span className="ml-2">{openResponsibilities[index] ? "⯆" : "⯈"}</span>
+                  <span className="ml-2">
+                    {openResponsibilities[index] ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
+                  </span>
                   <span className="mr-1" />
                   <h4 className="text-sm font-medium">Responsibilities</h4>
                 </div>
@@ -104,7 +106,9 @@ export default function ExperienceSection() {
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <Award className="h-4 w-4 text-purple-500" />
                   </div>
-                  <span className="ml-2">{openAchievements[index] ? "⯆" : "⯈"}</span>
+                  <span className="ml-2">
+                    {openAchievements[index] ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
+                  </span>
                   <span className="mr-1" />
                   <h4 className="text-sm font-medium">Key Achievements</h4>
                 </div>
