@@ -2,7 +2,7 @@ import { workExperience } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
 import { Briefcase, ListChecks, Award } from "lucide-react";
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import { useState } from "react";
 import MotionWrapper from "./MotionWrapper";
 
 const [open, setOpen] = useState(false);
