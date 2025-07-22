@@ -1,4 +1,3 @@
-import React from "react";
 import { awards } from "@/lib/data";
 import { Trophy } from "lucide-react";
 import MotionWrapper from "./MotionWrapper";
@@ -35,26 +34,22 @@ export default function AwardsSection() {
                 <p className="text-xs text-muted-foreground mb-1 pl-8">
                   🏢 {award.issuer}
                 </p>
-                <div className="flex flex-col space-y-2 mt-auto">
-                  <div className="flex justify-between items-center">
-                    <span className="text-xs text-muted-foreground bg-background/50 px-2 py-1 rounded-md">
-                      📅 {award.date}
-                    </span>
-                    <motion.span
-                      className="text-xs px-2 py-1 bg-purple-500/10 rounded-full"
-                      whileHover={{ scale: 1.05 }}
-                    >
-                      {award.position}
-                    </motion.span>
-                  </div>
-                  <motion.span
-                    className="text-xs text-muted-foreground/80 bg-background/50 px-2 py-1 rounded-md w-fit"
-                    whileHover={{ scale: 1.05 }}
+                <p className="text-xs text-muted-foreground mb-1 pl-8">
+                  📅 {award.date}
+                </p>
+                <p className="text-xs text-muted-foreground mb-1 pl-8">
+                  🌎 {award.type}
+                </p>
+                {link?.trim() && (
+                  <a
+                    className="text-xs text-muted-foreground mb-1 pl-8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={link}
                   >
-                    {award.type === "International" ? "🌎 " : "🇮🇳 "}
-                    {award.type}
-                  </motion.span>
-                </div>
+                    🔗 Open my certification
+                  </a>
+                )}
               </GlassCard>
             </MotionWrapper>
           ))}

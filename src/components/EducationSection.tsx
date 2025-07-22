@@ -1,10 +1,13 @@
 import { education } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
-import { Award } from "lucide-react";
+import { Award, ChevronRight, ChevronDown } from "lucide-react";
 import MotionWrapper from "./MotionWrapper";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function EducationSection() {
+  const [openCourses, setOpenCourses] = useState(Array(education.length).fill(false));
+
   return (
     <section
       id="education"
@@ -39,15 +42,23 @@ export default function EducationSection() {
                   transition={{ duration: 0.5, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <div className="flex items-center mb-3">
+                  <div 
+                    className="flex items-center mb-3 cursor-pointer select-none"
+                    onClick={() => setOpenCourses(o => o.map((v, i) => i === index ? !v : v))}
+                  >
                     <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                       <Award className="h-4 w-4 text-purple-500" />
                     </div>
+                    <span className="ml-2">
+                      {openCourses[index] ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
+                    </span>
+                    <span className="mr-1" />
                     <h4 className="text-sm font-medium">
-                      ✨ Achievements & Activities
+                      ✨ Classes
                     </h4>
                   </div>
-                  <ul className="list-none ml-4 space-y-2 text-sm">
+                  {openCourses[index] && (
+                    <ul className="list-none ml-4 space-y-2 text-sm">
                     {edu.achievements.map((achievement, i) => (
                       <motion.li
                         key={i}
@@ -61,6 +72,7 @@ export default function EducationSection() {
                       </motion.li>
                     ))}
                   </ul>
+                  )}
                 </motion.div>
               )}
             </TimelineItem>

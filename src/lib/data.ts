@@ -1,17 +1,17 @@
 export const personalInfo = {
   name: "Lucas UZAN",
   location: "Toulouse, France",
-  position: "Full-stack Developer | Product-Driven Mindset | AI & UX Enthusiast",
+  position: "Full-stack Developer & Product Owner | AI & UX Enthusiast",
   email: "uzanlah@gmail.com",
-  github: "https://github.com/wiiz83",
-  linkedin: "https://www.linkedin.com/in/lucasuzan/",
+  github: "github.com/wiiz83",
+  linkedin: "linkedin.com/in/lucasuzan/",
 };
 
 export const workExperience = [
   {
     company: "Pyto",
     location: "Remote",
-    website: "https://pyto.eu/",
+    website: "pyto.eu",
     position: "Co‑founder (side project)",
     period: "2024 – Present",
     context: "Building a mobile app that helps plant lovers care for their plants.",
@@ -34,7 +34,7 @@ export const workExperience = [
   {
     company: "Sopra Steria",
     location: "Toulouse, France",
-    website: "https://www.orange.fr/portail",
+    website: "orange.fr",
     position: "Business Analyst",
     period: "Jul 2024 – Present",
     context: "Maintaining and evolving a customer‑order‑management web application for Orange.",
@@ -62,7 +62,7 @@ export const workExperience = [
   {
     company: "Sopra Steria",
     location: "Toulouse, France",
-    website: "https://www.defense.gouv.fr/dga/dga-techniques-aerospatiales",
+    website: "defense.gouv.fr/dga/dga-techniques-aerospatiales",
     position: "Product Owner & QA Engineer",
     period: "Oct 2022 – Jul 2024",
     context: "Delivered a confidential web application for the French Defence Procurement Agency (DGA TA).",
@@ -86,7 +86,7 @@ export const workExperience = [
   {
     company: "DataMedCare",
     location: "Bordeaux, France",
-    website: "https://www.datamedcare.com/",
+    website: "datamedcare.com",
     position: "Full‑stack Developer / Scrum Master",
     period: "2020 – 2022",
     context: "Enhanced web applications that monitor patients with sleep apnoea.",
@@ -105,7 +105,7 @@ export const workExperience = [
   {
     company: "Air France",
     location: "Toulouse, France",
-    website: "https://wwws.airfrance.fr/",
+    website: "airfrance.fr",
     position: "Full‑stack Developer (apprenticeship)",
     period: "2017 – 2019",
     context: "Created a multilingual customer VoiceBot and tracking dashboards.",
@@ -121,7 +121,7 @@ export const workExperience = [
   {
     company: "Océalia Informatique",
     location: "Toulouse, France",
-    website: "https://www.ocealia-informatique.com/",
+    website: "ocealia-informatique.com",
     position: "Software Developer (apprenticeship)",
     period: "2016 – 2017",
     context: "Redesigned a staff‑scheduling solution for the social and healthcare sector.",
@@ -146,7 +146,7 @@ export const workExperience = [
   {
     company: "Alpamayo",
     location: "Grenoble, France",
-    website: "https://www.alpamayo.fr/",
+    website: "alpamayo.fr",
     position: "Freelance Web Developer",
     period: "2017 – 2019",
     context: "Redesigned a web application for school‑zoning data consultation and management.",
@@ -159,7 +159,7 @@ export const workExperience = [
   {
     company: "DJ Gwada Mike",
     location: "Cork, Ireland",
-    website: "https://ra.co/dj/djgwadamike",
+    website: "ra.co/dj/djgwadamike",
     position: "Freelance Graphic Designer",
     period: "2017 – 2019",
     context: "Designed visual assets for music events.",
@@ -174,6 +174,7 @@ export const education = [
   {
     institution: "Université Toulouse Capitole",
     location: "Toulouse, France",
+    website: "ut-capitole.fr",
     degree: "Master in Computer Science & Business (MIAGE)",
     period: "2017 - 2019",
     achievements: [
@@ -200,6 +201,7 @@ export const education = [
   {
     institution: "Université Toulouse Capitole",
     location: "Toulouse, France",
+    website: "ut-capitole.fr",
     degree: "Bachelor in Computer Science & Business (MIAGE)",
     period: "2016 - 2017",
     achievements: [
@@ -224,6 +226,7 @@ export const education = [
   {
     institution: "Université Grenoble Alpes",
     location: "Grenoble, France",
+    website: "univ-grenoble-alpes.fr",
     degree: "Bachelor in Computer Science ",
     period: "2015 - 2016",
     achievements: [
@@ -240,6 +243,7 @@ export const education = [
   {
     institution: "Munster Technological University",
     location: "Cork, Ireland",
+    website: "mtu.ie",
     degree: "Bachelor in Computer Science",
     period: "2014 - 2015",
     achievements: [
@@ -255,6 +259,7 @@ export const education = [
   {
     institution: "Université Grenoble Alpes",
     location: "Grenoble, France",
+    website: "univ-grenoble-alpes.fr",
     degree: "DUT Services et réseaux de communication",
     period: "2012 - 2014",
     achievements: [
@@ -381,25 +386,28 @@ export const projects = [
 
 export const awards = [
   {
-    name: "Professional Scrum Product Owner (PSPO) I",
+    name: "Professional Scrum Product Owner I (PSPO I)",
     issuer: "Scrum.org",
-    date: "2024",
+    date: "Nov. 2024",
     type: "International",
+    link: "https://www.credly.com/badges/5c0be47e-13d8-4cc4-b2d8-8bc7ed0d3030/public_url",
     position: "XXXX",
   },
   {
-    name: "SAFe Product Owner/Product Manager (POPM)",
-    issuer: "SAFe 6",
-    date: "2023",
+    name: "SAFe 6 Product Owner/Product Manager",
+    issuer: "Scaled Agile",
+    date: "Nov. 2023",
     type: "International",
-    position: "XXX",
+    position: "96%",
+    link: "https://www.credly.com/badges/79116928-0b8a-400b-ba12-a6158ca0158d/public_url"
   },
   {
-    name: "Agile Innovation Mgmt.",
-    issuer: "XXXX",
-    date: "2024",
+    name: "Lead and steer an innovative project with agile methods",
+    issuer: "ORIIONS",
+    date: "Nov. 2024",
     type: "French",
     position: "XX",
+    link: "https://app.procertif.com/wallet/66f3bbba08144/2411LUCUZA557",
   },
   {
     name: "GDPR Awareness",
@@ -408,4 +416,30 @@ export const awards = [
     type: "French",
     position: "XXX",
   }
+];
+
+
+export const volunteeringExperience = [
+  {
+    company: "Association Vénus",
+    location: "Bordeaux, France",
+    website: "facebook.com/association.Venus",
+    position: "Volunteer IT Lead",
+    period: "2021 - 2022",
+    context: "Built and deployed a WordPress site and custom admin dashboard",
+    responsibilities: [
+      "Built and deployed a WordPress site and custom admin dashboard.",
+    ],
+  },
+  {
+    company: "New Talents France",
+    location: "Remote",
+    website: "linkedin.com/company/new-talents-france",
+    position: "Startup Mentor",
+    period: "2021 - 2022",
+    context: "Built and deployed a WordPress site and custom admin dashboard",
+    responsibilities: [
+      "Supported young entrepreneurs in shaping viable business models.",
+    ],
+  },
 ];
