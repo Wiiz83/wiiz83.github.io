@@ -31,7 +31,7 @@ export default function ProjectsSection() {
                     {project.title}
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="flex-grow pt-2">
+                <CardContent className="flex-grow mt-4">
                   <p className="text-muted-foreground mb-4">
                     {project.description}
                   </p>
