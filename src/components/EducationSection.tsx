@@ -31,7 +31,7 @@ export default function EducationSection() {
               index={index}
               link={edu.website}
             >
-              <p className="text-xs text-muted-foreground/70 mb-2">🏛️ ${edu.institution}</p>
+              <p className="text-xs text-muted-foreground/70 mb-2">🏛️ {edu.institution}</p>
               
               {edu.achievements && edu.achievements.length > 0 && (
                 <motion.div
