@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Lucas UZAN",
   location: "Toulouse, France",
-  position: "Full-stack Developer & Product Owner | AI & UX Enthusiast",
+  position: "Full-stack Developer & Business Analyst | AI & UX Enthusiast",
   email: "uzanlah@gmail.com",
   github: "https://github.com/wiiz83",
   linkedin: "https://linkedin.com/in/lucasuzan",
@@ -13,7 +13,7 @@ export const workExperience = [
     location: "Remote",
     website: "https://pyto.eu",
     position: "Co‑founder (side project)",
-    period: "2024 – Present",
+    period: "2024 – Present",
     context: "Building a mobile app that helps plant lovers care for their plants.",
     responsibilities: [
       "Conducting market analysis, drafting the business plan, and securing strategic partners.",
@@ -21,9 +21,9 @@ export const workExperience = [
       "Orchestrating project timelines and decision workshops.",
       "Steering the product roadmap in collaboration with users and B2B partners.",
       "Setting up a Docker‑containerised architecture and a CI/CD deployment pipeline.",
-      "Building the MVP (FastAPI, React Native, PostgreSQL) using Cursor AI.",
+      "Building the MVP (FastAPI, React Native, PostgreSQL) using Cursor AI.",
       "Training an EfficientNet‑B0 model for plant image recognition.",
-      "Integrating third‑party services (Mistral AI, OpenWeatherMap, Firebase).",
+      "Integrating third‑party services (Mistral AI, OpenWeatherMap, Firebase).",
     ],
     achievements: [
       "Executed several strategic pivots informed by French horticultural studies and UX‑survey feedback.",
@@ -35,7 +35,7 @@ export const workExperience = [
     location: "Toulouse, France",
     website: "https://orange.fr",
     position: "Business Analyst",
-    period: "Jul 2024 – Present",
+    period: "Jul 2024 – Present",
     context: "Maintaining and evolving a customer‑order‑management web application for Orange.",
     responsibilities: [
       "Analysing backlog items: gathering requirements, running feasibility studies, and producing macro‑level estimates.",
@@ -49,7 +49,7 @@ export const workExperience = [
       "Proposing procedural improvements to boost delivery speed and quality."
     ],
     achievements: [
-      "Rolled out Balsamiq team‑wide, cutting design‑feedback cycles by 30 %.",
+      "Rolled out Balsamiq team‑wide, cutting design‑feedback cycles by 30 %.",
       "Coached the squad in Balsamiq during backlog refinement, raising story readiness.",
       "Enhanced agile ceremonies (DOD/DOR workshop, PI Planning), improving focus and velocity.",
       "Migrated functional docs to structured templates, boosting traceability.",
@@ -62,8 +62,8 @@ export const workExperience = [
     location: "Toulouse, France",
     website: "https://defense.gouv.fr/dga/dga-techniques-aerospatiales",
     position: "Product Owner & QA Engineer",
-    period: "Oct 2022 – Jul 2024",
-    context: "Delivered a confidential web application for the French Defence Procurement Agency (DGA TA).",
+    period: "Oct 2022 – Jul 2024",
+    context: "Delivered a confidential web application for the French Defence Procurement Agency (DGA TA).",
     responsibilities: [
       "Led daily stand‑ups and progress reviews in English with a cross‑functional team.",
       "Analysed business needs and produced low‑fidelity wireframes in Balsamiq.",
@@ -75,7 +75,7 @@ export const workExperience = [
       "Proposed and negotiated product enhancements with stakeholders."
     ],
     achievements: [
-      "Planned and enforced a test strategy achieving 100 % code coverage via Gherkin scenarios.",
+      "Planned and enforced a test strategy achieving 100 % code coverage via Gherkin scenarios.",
       "Defined and executed full‑stack test suites with Cypress and Xray.",
       "Implemented end‑to‑end regression tests in Cypress (TypeScript) and parameterised Angular test configs.",
       "Updated GitLab CI to run Cypress suites on every merge request, cutting regression escapes to zero."
@@ -85,12 +85,12 @@ export const workExperience = [
     company: "DataMedCare",
     location: "Bordeaux, France",
     website: "https://datamedcare.com",
-    position: "Full‑stack Developer / Scrum Master",
-    period: "2020 – 2022",
+    position: "Full‑stack Developer & Scrum Master",
+    period: "2020 – 2022",
     context: "Enhanced web applications that monitor patients with sleep apnoea.",
     responsibilities: [
       "Implemented new features and maintained patient‑monitoring apps across front‑ and back‑end stacks.",
-      "Modelled and optimised database schemas to improve query performance by 40 %.",
+      "Modelled and optimised database schemas to improve query performance by 40 %.",
       "Deployed releases to production and resolved defects within SLA."
     ],
     achievements: [
@@ -105,13 +105,13 @@ export const workExperience = [
     location: "Toulouse, France",
     website: "https://airfrance.fr",
     position: "Full‑stack Developer (apprenticeship)",
-    period: "2017 – 2019",
+    period: "2017 – 2019",
     context: "Created a multilingual customer VoiceBot and tracking dashboards.",
     responsibilities: [
-      "Developed a VoiceBot using IBM Watson and Google Speech APIs for customer self‑service.",
-      "Built Angular 7 dashboards and a Spring Boot back‑end with GDPR‑compliant encryption and MongoDB.",
+      "Developed a VoiceBot using IBM Watson and Google Speech APIs for customer self‑service.",
+      "Built Angular 7 dashboards and a Spring Boot back‑end with GDPR‑compliant encryption and MongoDB.",
       "Gathered requirements, produced UML designs and UI mock‑ups, and released a proof of concept.",
-      "Implemented CI pipelines with Bamboo, Docker, Sonar, and Bitbucket; deployed to Cloud Foundry.",
+      "Implemented CI pipelines with Bamboo, Docker, Sonar, and Bitbucket; deployed to Cloud Foundry.",
       "Collaborated with international stakeholders within a SAFe Agile framework in English."
     ],
     achievements: []
@@ -121,11 +121,11 @@ export const workExperience = [
     location: "Toulouse, France",
     website: "https://ocealia-informatique.com",
     position: "Software Developer (apprenticeship)",
-    period: "2016 – 2017",
+    period: "2016 – 2017",
     context: "Redesigned a staff‑scheduling solution for the social and healthcare sector.",
     responsibilities: [
       "Rebuilt a staff‑scheduling solution using WinDev and HyperFileSQL.",
-      "Created UI assets in Adobe Photoshop and translated them into functional interfaces.",
+      "Created UI assets in Adobe Photoshop and translated them into functional interfaces.",
       "Ran client workshops to collect requirements and validate iterations."
     ],
     achievements: []
@@ -134,7 +134,7 @@ export const workExperience = [
     company: "L'écofabrique",
     location: "Toulouse, France",
     position: "Freelance Web Developer",
-    period: "2017 – 2019",
+    period: "2017 – 2019",
     context: "Developed a web application for responsible e‑commerce.",
     responsibilities: [
       "Performed a UX audit and delivered a responsible‑consumption e‑commerce platform from concept to launch."
@@ -146,7 +146,7 @@ export const workExperience = [
     location: "Grenoble, France",
     website: "https://alpamayo.fr",
     position: "Freelance Web Developer",
-    period: "2017 – 2019",
+    period: "2017 – 2019",
     context: "Redesigned a web application for school‑zoning data consultation and management.",
     responsibilities: [
       "Redesigned the application after a competitive analysis and UI refresh.",
@@ -159,7 +159,7 @@ export const workExperience = [
     location: "Cork, Ireland",
     website: "https://ra.co/dj/djgwadamike",
     position: "Freelance Graphic Designer",
-    period: "2017 – 2019",
+    period: "2017 – 2019",
     context: "Designed visual assets for music events.",
     responsibilities: [
       "Produced promotional posters and event visuals for musicians in Ireland."
@@ -416,14 +416,14 @@ export const awards = [
     link: "https://www.credly.com/badges/79116928-0b8a-400b-ba12-a6158ca0158d/public_url"
   },
   {
-    name: "Lead Innovative Projects with Agile Methods",
+    name: "Lead Innovative Projects with Agile Methods",
     issuer: "ORIIONS",
     date: "Nov. 2024",
     type: "French",
     link: "https://app.procertif.com/wallet/66f3bbba08144/2411LUCUZA557",
   },
   {
-    name: "The GDPR Workshop MOOC",
+    name: "The GDPR Workshop MOOC",
     issuer: "CNIL",
     date: "Jun. 2019",
     type: "French"
