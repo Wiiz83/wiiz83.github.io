@@ -379,7 +379,7 @@ export const projects = [
   {
     title: "Pyto",
     github: "https://github.com/Pyto-Company",
-    description: "Pyto est une application mobile éco-conçue pour aider tout un chacun — du grand débutant au passionné — à créer et entretenir un espace végétal qui lui ressemble, à l’intérieur comme à l’extérieur.",
+    description: "Pyto is an eco-designed mobile app that helps everyone — from complete beginners to plant enthusiasts — create and maintain a green space that reflects their personality, both indoors and outdoors.",
     details: [
       "User management: authentication via Firebase, profile and subscription handling.",
       "Smart species and disease scanning: EfficientNet models powered by PyTorch.",
