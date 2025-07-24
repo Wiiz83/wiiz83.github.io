@@ -31,8 +31,8 @@ export default function ProjectsSection() {
                     {project.title}
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-muted-foreground">
+                <CardContent className="flex-grow pt-1">
+                  <p className="text-muted-foreground mb-4">
                     {project.description}
                   </p>
                   <ul className="list-disc ml-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
