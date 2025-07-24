@@ -17,17 +17,16 @@ export const workExperience = [
     context: "Building a mobile app that helps plant lovers care for their plants.",
     responsibilities: [
       "Conducting market analysis, drafting the business plan, and securing strategic partners.",
-      "Creating wireframes and iterating the UI with professional designers and beta users.",
+      "Creating wireframes and iterating the UI/UX with professional designers and beta users.",
       "Orchestrating project timelines and decision workshops.",
       "Steering the product roadmap in collaboration with users and B2B partners.",
-      "Designing a cloud‑native architecture (FastAPI, React Native, PostgreSQL).",
-      "Building the MVP with AI‑assisted coding tools (Cursor AI, ChatGPT).",
+      "Setting up a Docker‑containerised architecture and a CI/CD deployment pipeline.",
+      "Building the MVP (FastAPI, React Native, PostgreSQL) using Cursor AI.",
       "Training an EfficientNet‑B0 model for plant image recognition.",
-      "Setting up Docker‑based CI/CD on GitHub Actions.",
       "Integrating third‑party services (Mistral AI, OpenWeatherMap, Firebase).",
     ],
     achievements: [
-      "Executed multiple strategic pivots informed by French horticultural studies and UX‑survey feedback.",
+      "Executed several strategic pivots informed by French horticultural studies and UX‑survey feedback.",
       "Secured interviews with independent garden centres and florists, establishing early partnership leads."
     ]
   },
@@ -44,15 +43,14 @@ export const workExperience = [
       "Prioritising backlog entries and keeping Jira fields current.",
       "Tracking daily earned value (RAE) and reporting progress to the project lead.",
       "Running sprint demos and capturing actionable feedback for the next iteration.",
-      "Unblocking developers with functional answers and ad‑hoc SQL/Python checks.",
+      "Unblocking developers with functional answers and ad‑hoc SQL checks.",
       "Producing UI mock‑ups in Balsamiq and iterating them with stakeholders.",
-      "Driving agile ceremonies and story‑point estimation sessions.",
       "Mentoring incoming business analysts and sharing domain knowledge.",
       "Proposing procedural improvements to boost delivery speed and quality."
     ],
     achievements: [
       "Rolled out Balsamiq team‑wide, cutting design‑feedback cycles by 30 %.",
-      "Coached the squad in Balsamiq during backlog refinement, raising story readiness from 60 % to 95 %.",
+      "Coached the squad in Balsamiq during backlog refinement, raising story readiness.",
       "Enhanced agile ceremonies (DOD/DOR workshop, PI Planning), improving focus and velocity.",
       "Migrated functional docs to structured templates, boosting traceability.",
       "Reorganised the functional wiki, halving onboarding time for newcomers.",
@@ -96,10 +94,10 @@ export const workExperience = [
       "Deployed releases to production and resolved defects within SLA."
     ],
     achievements: [
-      "Introduced a Scrumban board that shortened cycle time by 25 %.",
-      "Facilitated agile ceremonies and retrospectives, raising team satisfaction scores.",
+      "Introduced a Scrumban board and raised team satisfaction scores.",
       "Migrated projects to the Atlassian suite, creating a structured backlog.",
-      "Adopted Figma and produced UI wireframes with stakeholders, reducing design rework."
+      "Adopted Figma and produced UI wireframes with stakeholders, reducing design rework.",
+      "Drived and facilitated agile ceremonies and story‑point estimation sessions.",
     ]
   },
   {
@@ -171,6 +169,24 @@ export const workExperience = [
 ];
 
 export const education = [
+  {
+    institution: "Beth",
+    location: "Remote",
+    website: "https://www.superprof.fr/professeur-anglais-native-diplomee-donne-cours-particuliers-ligne-niveau-age-experience.html",
+    degree: "Regular English course with a Scottish teacher",
+    period: "2024 - Present",
+    achievements: [
+    ],
+  },
+  {
+    institution: "Minh Hai",
+    location: "Remote",
+    website: "https://www.superprof.fr/programmation-frameworks-difficultes-implementer-algorithmes-reseaux-neurones-data.html",
+    degree: "Regular AI course with a PhD candidate in ML/DL",
+    period: "2024 - Present",
+    achievements: [
+    ],
+  },
   {
     institution: "Université Toulouse Capitole",
     location: "Toulouse, France",
@@ -391,30 +407,26 @@ export const awards = [
     date: "Nov. 2024",
     type: "International",
     link: "https://www.credly.com/badges/5c0be47e-13d8-4cc4-b2d8-8bc7ed0d3030/public_url",
-    position: "XXXX",
   },
   {
     name: "SAFe 6 Product Owner/Product Manager",
     issuer: "Scaled Agile",
     date: "Nov. 2023",
     type: "International",
-    position: "96%",
     link: "https://www.credly.com/badges/79116928-0b8a-400b-ba12-a6158ca0158d/public_url"
   },
   {
-    name: "Lead and steer an innovative project with agile methods",
+    name: "Lead Innovative Projects with Agile Methods",
     issuer: "ORIIONS",
     date: "Nov. 2024",
     type: "French",
-    position: "XX",
     link: "https://app.procertif.com/wallet/66f3bbba08144/2411LUCUZA557",
   },
   {
-    name: "GDPR Awareness",
-    issuer: "XXX",
-    date: "2019",
-    type: "French",
-    position: "XXX",
+    name: "The GDPR Workshop MOOC",
+    issuer: "CNIL",
+    date: "Jun. 2019",
+    type: "French"
   }
 ];
 
@@ -423,7 +435,7 @@ export const volunteeringExperience = [
   {
     company: "Association Vénus",
     location: "Bordeaux, France",
-    website: "https://facebook.com/association.Venus",
+    website: "https://associationvenus.fr",
     position: "Volunteer IT Lead",
     period: "2021 - 2022",
     context: "Built and deployed a WordPress site and custom admin dashboard",

@@ -10,8 +10,8 @@ export default function VolunteeringSection() {
 
   return (
     <section
-      id="experience"
-      className="py-12 bg-gradient-to-b from-muted/20 to-background"
+      id="volunteering"
+      className="py-12 relative"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
@@ -23,9 +23,9 @@ export default function VolunteeringSection() {
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              💼
+              🫂
             </motion.span>{" "}
-            Work Experience
+            Volunteering Experience
           </h2>
         </MotionWrapper>
         <div className="mb-8">
