@@ -3,11 +3,33 @@ import { personalInfo } from "@/lib/data";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useCallback } from "react";
+
+const SECTIONS = ["experience", "skills", "projects", "certifications", "volunteering", "education"];
 
 export default function GlassHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  // utilitaire qui renvoie un handler par section
+  const handleLinkClick = useCallback(
+    (id: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
+      e.preventDefault();               // on annule le scroll natif
+      setIsMenuOpen(false);             // on ferme le menu
+
+      // on scrolle seulement quand l’animation est terminée
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+        // met à jour le hash sans déclencher un nouveau scroll natif
+        history.replaceState(null, "", `#${id}`);
+      }, 300); // même valeur que transition.duration
+    },
+    []
+  );
 
   return (
     <header className="sticky z-50 w-full backdrop-blur-md backdrop-filter bg-background/70 dark:bg-background/40 border-b border-border/40 supports-[backdrop-filter]:bg-background/60">
@@ -23,7 +45,7 @@ export default function GlassHeader() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "skills", "projects", "awards", "education"].map(
+          {SECTIONS.map(
             (item, index) => (
               <motion.a
                 key={item}
@@ -37,7 +59,8 @@ export default function GlassHeader() {
                 {item === "experience" && "💼 "}
                 {item === "skills" && "🛠️ "}
                 {item === "projects" && "🚀 "}
-                {item === "awards" && "🏆 "}
+                {item === "certifications" && "🏆 "}
+                {item === "volunteering" && "🫂 "}
                 {item === "education" && "🎓 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
@@ -71,13 +94,13 @@ export default function GlassHeader() {
             transition={{ duration: 0.3 }}
           >
             <nav className="flex flex-col space-y-4 text-sm font-medium">
-              {["experience", "skills", "projects", "awards", "education"].map(
+              {SECTIONS.map(
                 (item, index) => (
                   <motion.a
                     key={item}
                     href={`#${item}`}
                     className="transition-colors hover:text-foreground/80 text-foreground/60 py-2"
-                    onClick={toggleMenu}
+                    onClick={handleLinkClick(item)}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.2, delay: index * 0.1 }}
@@ -85,7 +108,8 @@ export default function GlassHeader() {
                     {item === "experience" && "💼 "}
                     {item === "skills" && "🛠️ "}
                     {item === "projects" && "🚀 "}
-                    {item === "awards" && "🏆 "}
+                    {item === "certifications" && "🏆 "}
+                    {item === "volunteering" && "🫂 "}
                     {item === "education" && "🎓 "}
                     {item.charAt(0).toUpperCase() + item.slice(1)}
                   </motion.a>

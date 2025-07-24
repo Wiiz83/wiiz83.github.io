@@ -440,7 +440,13 @@ export const volunteeringExperience = [
     period: "2021 - 2022",
     context: "Built and deployed a WordPress site and custom admin dashboard",
     responsibilities: [
-      "Built and deployed a WordPress site and custom admin dashboard.",
+      "Analysis of how the association operates and of its volunteers’ needs.",
+      "Development of a management app for the association using Angular and Firebase.",
+      "Setup of an automated CI/CD deployment pipeline for the app on  OVH.",
+      "Creation of the association’s website in WordPress with a custom theme.",
+      "Providing home‑based foster care for abandoned or mistreated animals.",
+      "Taking part in pet‑supply collection drives outside stores.",
+      "Joining a city‑center demonstration in support of animals.",
     ],
   },
   {
@@ -449,7 +455,7 @@ export const volunteeringExperience = [
     website: "https://linkedin.com/company/new-talents-france",
     position: "Startup Mentor",
     period: "2021 - 2022",
-    context: "Built and deployed a WordPress site and custom admin dashboard",
+    context: "Supported young entrepreneurs in shaping viable business models",
     responsibilities: [
       "Supported young entrepreneurs in shaping viable business models.",
     ],

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function AwardsSection() {
   return (
     <section
-      id="awards"
+      id="certifications"
       className="py-12 relative"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">

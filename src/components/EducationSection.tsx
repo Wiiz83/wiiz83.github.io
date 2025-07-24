@@ -25,16 +25,14 @@ export default function EducationSection() {
             <TimelineItem
               key={edu.institution}
               title={`🎓 ${edu.degree}`}
-              subtitle={`🏛️ ${edu.institution}`}
+              subtitle={`🌍 ${edu.location}`}
               date={`📅 ${edu.period}`}
               isLast={index === education.length - 1}
               index={index}
               link={edu.website}
             >
-              <p className="text-sm text-muted-foreground mb-3">
-                📍 {edu.location}
-              </p>
-
+              <p className="text-xs text-muted-foreground/70 mb-2">🏛️ ${edu.institution}</p>
+              
               {edu.achievements && edu.achievements.length > 0 && (
                 <motion.div
                   className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
